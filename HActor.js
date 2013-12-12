@@ -1,3 +1,10 @@
+
+/*
+ * author : younger.shen
+ * email  : younger.x.shen@gmail.com
+ */
+
+
 // a game logic object
 // it can own a picture or a animaton or nothing
 // but it shou own the logic

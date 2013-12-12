@@ -1,3 +1,10 @@
+
+/*
+ * author : younger.shen
+ * email  : younger.x.shen@gmail.com
+ */
+
+
 /*Animation module
  *dependences : HCore.js
  */

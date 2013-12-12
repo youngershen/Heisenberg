@@ -1,4 +1,9 @@
 /*
+ * author : younger.shen
+ * email  : younger.x.shen@gmail.com
+ */
+
+/*
  * the video module contins many video control method for the canvas
  */
 

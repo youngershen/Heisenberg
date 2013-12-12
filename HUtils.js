@@ -1,4 +1,10 @@
 /*
+ * author : younger.shen
+ * email  : younger.x.shen@gmail.com
+ */
+
+
+/*
  *the util module file 
  *contains some kind of util method
  *Dependences : none

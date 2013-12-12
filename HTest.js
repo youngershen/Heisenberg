@@ -1,4 +1,9 @@
-//test init
+/*
+ * author : younger.shen
+ * email  : younger.x.shen@gmail.com
+ */
+
+
 Heisenberg.init(400, 300, "center", {});
 Heisenberg.HVideo.init(60);
 
