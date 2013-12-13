@@ -13,16 +13,34 @@
 
     var HActor = {};
     if(window.Heisenberg){
-        window.Heisenberg.HActor = HActor;
+        //window.Heisenberg.HActor = HActor;
         //actorContext {canvasContext, graphPattern}
 
-        HActor.crateActor = function(actorID, actorContext){
-            this.actorId = actorID;
-            this.actorContext = actorContext;
+        Heisenberg.HActor = function(image, callback){
+
+            this.image = image;
+            this.callback = callback;
+         
+            var actorConfig = {
+
+                _x : 0,
+                _y : 0
+            }
+            
+            this.draw = function(){
+                
+                //save
+                callback(actorConfig);
+                Heisenberg.HVideo.stage2d.context.drawImage(image, actorConfig._x, actorConfig._y, image.width, image.height);
+                //draw
+                //restore 
+            }
+
+
         }
+    
     }else{
 
         HDebug.logger("HActor module init error!!!");
     }
-
 })(window);
